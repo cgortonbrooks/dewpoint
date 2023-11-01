@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Brooks Dewpoint Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+    <!-- Navbar (Sits on top) -->
+    <div class="w3-top w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="/" class="w3-bar-item w3-button"><strong>Brooks</strong> Dewpoint Report</a>
+
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="/about" class="w3-bar-item w3-button">About</a>
+        </div>
+
+    </div>
+
+    <div class="w3-container" style="margin-top: 60px;">
+        <h1 id="dewPtDiv"></h1>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/myScript.js') }}"></script>
+</body>
